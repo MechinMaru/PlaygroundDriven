@@ -22,16 +22,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="diN-H1-6t6" userLabel="Root Stack View">
-                                <rect key="frame" x="37.5" y="258.5" width="300" height="151.5"/>
+                                <rect key="frame" x="37.5" y="269" width="300" height="131"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GmN-Wc-fix">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wCK-QM-YMp" userLabel="email Stack View">
-                                        <rect key="frame" x="0.0" y="20.5" width="300" height="50.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="50.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ke-ir-ayD">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
@@ -48,7 +42,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gNi-Zy-pVX" userLabel="password Stack View">
-                                        <rect key="frame" x="0.0" y="71" width="300" height="50.5"/>
+                                        <rect key="frame" x="0.0" y="50.5" width="300" height="50.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mh1-ph-CRP">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
@@ -65,7 +59,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHO-mU-a1d">
-                                        <rect key="frame" x="0.0" y="121.5" width="300" height="30"/>
+                                        <rect key="frame" x="0.0" y="101" width="300" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
                                 </subviews>
@@ -89,7 +83,6 @@
                         <outlet property="passwordTextField" destination="Gtf-od-V7J" id="kkA-Mc-Ptw"/>
                         <outlet property="rootStackView" destination="diN-H1-6t6" id="S72-50-ahf"/>
                         <outlet property="submitButton" destination="cHO-mU-a1d" id="Pth-gv-lVf"/>
-                        <outlet property="titleLabel" destination="GmN-Wc-fix" id="WUh-0j-9Qc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -29,17 +29,9 @@ public class LoginViewController: UIViewController {
         self.rootStackView.translatesAutoresizingMaskIntoConstraints = false
         self.rootStackView.spacing = 24
         self.rootStackView.layoutMargins = self.traitCollection.horizontalSizeClass == .regular
-            ? .init(top: 26, left: 26, bottom: 26, right: 26)
-            : .init(top: 10, left: 10, bottom: 10, right: 10)
+            ? .init(top: 36, left: 36, bottom: 36, right: 36)
+            : .init(top: 16, left: 16, bottom: 16, right: 16)
         self.rootStackView.isLayoutMarginsRelativeArrangement = true
-
-//
-//        self.titleLabel.text = "Log in"
-//        self.titleLabel.textAlignment = .center
-//        self.titleLabel.font = self.traitCollection.verticalSizeClass == .regular && self.traitCollection.horizontalSizeClass == .regular
-//            ? .preferredFont(forTextStyle: .title1, compatibleWith: self.traitCollection)
-//            : .preferredFont(forTextStyle: .title3, compatibleWith: self.traitCollection)
-//        self.titleLabel.textColor = UIColor.init(white: 0.2, alpha: 1)
 
         self.emailLabel.text = "Email"
         self.emailLabel.font = UIFont.preferredFont(forTextStyle: .caption1, compatibleWith: self.traitCollection)
